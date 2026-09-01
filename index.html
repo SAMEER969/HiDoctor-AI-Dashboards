@@ -1,74 +1,98 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
-
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="description"
-          content="HiDoctor AI Dashboards">
+        content="HiDoctor AI Dashboards - Intelligent analytics for territories, representatives and doctors">
 
     <title>HiDoctor AI Dashboards</title>
 
-    <link rel="stylesheet"
-          href="style.css">
-
+    <link rel="stylesheet" href="style.css">
 </head>
-
 
 <body>
 
-
-<!-- =========================================
-     HEADER / HERO
-========================================= -->
+<!-- ==============================
+     HEADER
+================================ -->
 
 <header class="hero">
 
+    <div class="hero-glow glow-one"></div>
+    <div class="hero-glow glow-two"></div>
+
     <div class="hero-content">
 
+        <!-- LEFT -->
 
-        <!-- LEFT SIDE -->
+        <div class="hero-text">
 
-        <div class="hero-text-content">
-
-            <div class="ai-badge">
-                AI
+            <div class="eyebrow">
+                <span class="pulse-dot"></span>
+                POWERED BY AI
             </div>
-
-
-            <div class="brand">
-                HiDoctor
-            </div>
-
 
             <h1>
-                AI Dashboards
+                HiDoctor
+                <span>AI Dashboards</span>
             </h1>
 
-
-            <p>
-                Transforming field-force data into intelligent
-                insights, meaningful comparisons and actionable
-                decisions.
+            <p class="hero-description">
+                Turn complex field-force data into intelligent insights,
+                meaningful comparisons and actionable decisions.
             </p>
 
+            <div class="hero-stats">
+
+                <div class="stat">
+                    <strong>03</strong>
+                    <span>AI Dashboards</span>
+                </div>
+
+                <div class="stat-divider"></div>
+
+                <div class="stat">
+                    <strong>360°</strong>
+                    <span>Intelligent Insights</span>
+                </div>
+
+                <div class="stat-divider"></div>
+
+                <div class="stat">
+                    <strong>AI</strong>
+                    <span>Powered Analytics</span>
+                </div>
+
+            </div>
+
         </div>
 
 
-        <!-- RIGHT SIDE - HIDOCTOR LOGO -->
+        <!-- RIGHT - LOGO -->
 
-        <div class="hero-logo">
+        <div class="hero-brand">
 
-            <img
-                src="hidoctor-logo.png"
-                alt="HiDoctor Logo">
+            <div class="logo-glow"></div>
+
+            <div class="logo-container">
+
+                <img
+                    src="hidoctor-logo.png"
+                    alt="HiDoctor Logo">
+
+            </div>
+
+            <div class="brand-caption">
+                <span></span>
+                INTELLIGENCE • INSIGHTS • ACTION
+                <span></span>
+            </div>
 
         </div>
-
 
     </div>
 
@@ -76,44 +100,37 @@
 
 
 
-<!-- =========================================
-     MAIN CONTENT
-========================================= -->
+<!-- ==============================
+     MAIN
+================================ -->
 
-<main class="container">
+<main class="main">
 
+    <section class="section-heading">
 
-    <!-- INTRO -->
-
-    <section class="intro">
-
-        <span class="section-label">
-            Explore the Dashboards
-        </span>
-
+        <div class="section-eyebrow">
+            EXPLORE
+        </div>
 
         <h2>
             Intelligence at a glance.
         </h2>
 
-
         <p>
-            Explore our AI-powered dashboards designed to provide
-            deeper insights into territories, representatives and
-            doctors. Watch the videos below to discover how each
-            dashboard works.
+            Discover how HiDoctor AI transforms field-force data
+            into powerful visual insights across territories,
+            representatives and doctors.
         </p>
 
     </section>
 
 
 
-    <!-- =====================================
-         DASHBOARD GRID
-    ====================================== -->
+    <!-- ==============================
+         DASHBOARDS
+    ================================= -->
 
     <section class="dashboard-grid">
-
 
 
         <!-- =================================
@@ -122,64 +139,65 @@
 
         <article class="dashboard-card">
 
+            <div class="card-header">
 
-            <div class="card-top">
-
-                <span class="number">
+                <div class="card-number">
                     01
-                </span>
+                </div>
 
+                <div class="card-icon">
 
-                <div class="dashboard-icon">
-                    ↔
+                    <svg viewBox="0 0 24 24">
+                        <path d="M4 19V5M4 19H20M7 15L11 10L14 13L20 6"/>
+                    </svg>
+
                 </div>
 
             </div>
 
 
-            <h3>
-                Territory Comparison Dashboard
-            </h3>
+            <div class="card-content">
 
+                <div class="card-tag">
+                    TERRITORY ANALYTICS
+                </div>
 
-            <p>
-                Compare territory performance, identify trends,
-                discover gaps and uncover opportunities through
-                AI-powered insights.
-            </p>
+                <h3>
+                    Territory Comparison
+                </h3>
 
-
-
-            <!-- VIDEO -->
-
-            <div class="video-wrapper">
-
-                <!--
-                REPLACE VIDEO_ID_1
-
-                Example YouTube URL:
-
-                https://www.youtube.com/watch?v=ABC123
-
-                Use:
-
-                https://www.youtube.com/embed/ABC123
-                -->
-
-                <iframe
-                    src="https://www.youtube.com/embed/-9Si2XZFjWw"
-                    title="Territory Comparison Dashboard"
-                    frameborder="0"
-                    referrerpolicy="strict-origin-when-cross-origin"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen>
-                </iframe>
+                <p>
+                    Compare territory performance, identify trends,
+                    uncover gaps and discover opportunities with
+                    AI-powered analysis.
+                </p>
 
             </div>
 
 
-        </article>
+            <div class="video-container">
 
+                <div class="video-label">
+                    <span class="live-dot"></span>
+                    DASHBOARD PREVIEW
+                </div>
+
+                <div class="video-wrapper">
+
+                    <iframe
+                        src="https://www.youtube.com/embed/-9Si2XZFjWw"
+                        title="Territory Comparison Dashboard"
+                        loading="lazy"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen>
+                    </iframe>
+
+                </div>
+
+            </div>
+
+        </article>
 
 
 
@@ -189,136 +207,191 @@
 
         <article class="dashboard-card">
 
+            <div class="card-header">
 
-            <div class="card-top">
-
-                <span class="number">
+                <div class="card-number">
                     02
-                </span>
+                </div>
 
+                <div class="card-icon">
 
-                <div class="dashboard-icon">
-                    ◈
+                    <svg viewBox="0 0 24 24">
+
+                        <circle
+                            cx="9"
+                            cy="8"
+                            r="3"/>
+
+                        <circle
+                            cx="17"
+                            cy="9"
+                            r="2.5"/>
+
+                        <path
+                            d="M3 20C3 16.5 5.5 14 9 14C12.5 14 15 16.5 15 20"/>
+
+                        <path
+                            d="M15 14.5C18 14.5 20 16.5 20 19"/>
+
+                    </svg>
+
                 </div>
 
             </div>
 
 
-            <h3>
-                Rep Comparison Dashboard
-            </h3>
+            <div class="card-content">
 
+                <div class="card-tag">
+                    FIELD FORCE ANALYTICS
+                </div>
 
-            <p>
-                Compare medical representatives, understand
-                performance patterns and quickly identify
-                strengths, gaps and improvement opportunities.
-            </p>
+                <h3>
+                    Rep Comparison
+                </h3>
 
-
-
-            <!-- VIDEO -->
-
-            <div class="video-wrapper">
-
-                <!-- Replace VIDEO_ID_2 -->
-
-                <iframe
-                    src="https://www.youtube.com/embed/VIDEO_ID_2"
-                    title="Rep Comparison Dashboard"
-                    loading="lazy"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen>
-                </iframe>
+                <p>
+                    Compare medical representatives, understand
+                    performance patterns and identify strengths,
+                    gaps and improvement opportunities.
+                </p>
 
             </div>
 
+
+            <div class="video-container">
+
+                <div class="video-label">
+                    <span class="live-dot"></span>
+                    DASHBOARD PREVIEW
+                </div>
+
+                <div class="video-wrapper">
+
+                    <iframe
+                        src="https://www.youtube.com/embed/iK0JP76Svv0"
+                        title="Rep Comparison Dashboard"
+                        loading="lazy"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen>
+                    </iframe>
+
+                </div>
+
+            </div>
 
         </article>
 
 
 
-
         <!-- =================================
-             DOCTOR 360
+             DOCTOR360
         ================================== -->
 
         <article class="dashboard-card">
 
+            <div class="card-header">
 
-            <div class="card-top">
-
-                <span class="number">
+                <div class="card-number">
                     03
-                </span>
+                </div>
 
+                <div class="card-icon">
 
-                <div class="dashboard-icon">
-                    ✦
+                    <svg viewBox="0 0 24 24">
+
+                        <circle
+                            cx="12"
+                            cy="8"
+                            r="3"/>
+
+                        <path
+                            d="M6 20C6 16.5 8.5 14 12 14C15.5 14 18 16.5 18 20"/>
+
+                        <path
+                            d="M19 4V8M17 6H21"/>
+
+                    </svg>
+
                 </div>
 
             </div>
 
 
-            <h3>
-                Doctor360 Dashboard
-            </h3>
+            <div class="card-content">
 
+                <div class="card-tag">
+                    DOCTOR INTELLIGENCE
+                </div>
 
-            <p>
-                Get a comprehensive 360° view of doctors,
-                including interactions, activities, engagement
-                and relevant performance insights.
-            </p>
+                <h3>
+                    Doctor360
+                </h3>
 
-
-
-            <!-- VIDEO -->
-
-            <div class="video-wrapper">
-
-                <!-- Replace VIDEO_ID_3 -->
-
-                <iframe
-                    src="https://www.youtube.com/embed/VIDEO_ID_3"
-                    title="Doctor360 Dashboard"
-                    loading="lazy"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen>
-                </iframe>
+                <p>
+                    Get a comprehensive 360° view of doctors,
+                    interactions, activities, engagement and
+                    relevant performance insights.
+                </p>
 
             </div>
 
+
+            <div class="video-container">
+
+                <div class="video-label">
+                    <span class="live-dot"></span>
+                    DASHBOARD PREVIEW
+                </div>
+
+                <div class="video-wrapper">
+
+                    <iframe
+                        src="https://www.youtube.com/embed/rwGpIoAthlY"
+                        title="Doctor360 Dashboard"
+                        loading="lazy"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen>
+                    </iframe>
+
+                </div>
+
+            </div>
 
         </article>
 
 
     </section>
 
-
 </main>
 
 
 
-<!-- =========================================
+<!-- ==============================
      FOOTER
-========================================= -->
+================================ -->
 
 <footer>
 
-    <strong>
-        HiDoctor AI Dashboards
-    </strong>
+    <div class="footer-brand">
+        HiDoctor <span>AI</span>
+    </div>
 
+    <p>
+        Intelligent analytics for smarter decisions.
+    </p>
 
-    <span>
-        Intelligence • Insights • Action
-    </span>
+    <div class="footer-line"></div>
+
+    <small>
+        © HiDoctor • AI Dashboards
+    </small>
 
 </footer>
 
 
-
 </body>
-
 </html>
+```
